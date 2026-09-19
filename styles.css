@@ -86,6 +86,14 @@ body {
     background-color: rgba(70, 130, 160, 0.1);
 }
 
+.nav-link-footer {
+    color: var(--text-light);
+}
+
+.nav-link-footer:hover {
+    color: var(--primary-dark);
+}
+
 /* HERO SECTION */
 
 .hero {
