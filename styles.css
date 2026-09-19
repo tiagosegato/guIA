@@ -186,9 +186,12 @@ body {
     transition: color 0.3s ease;
 }
 
+.nav-card:hover {
+    border: 3px solid var(--primary-dark);
+}
+
 .nav-card:hover .nav-card-icon {
     color: var(--primary-dark);
-    /* Ícone mais escuro no hover */
 }
 
 .nav-card h4 {
